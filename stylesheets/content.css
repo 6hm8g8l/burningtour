@@ -1,0 +1,1514 @@
+body{
+  background-color: black;
+}
+.b1{
+  position: static;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+}
+.img1{
+  width: 100%;
+}
+.ladder{
+  margin-top: 15%;
+  position: relative;
+  z-index: 1;
+}
+.skel{
+  width: 47%;
+}
+.skeld{
+  position: relative;
+  text-align: center;
+  margin-top: -210%;
+  z-index: 2;
+}
+.left{
+  width: 12%;
+}
+.leftd{
+  position: relative;
+  margin-top: -161%;
+  margin-left: 15%;
+  animation: leftd 4000ms linear infinite;
+    animation-timing-function: ease-in-out;
+      z-index: 1;
+}
+@keyframes leftd {
+    0% {
+        transform:rotate(-5deg);
+    }
+    10% {
+        transform:rotate(5deg);
+    }
+    20% {
+        transform:rotate(-5deg);
+    }
+    30% {
+        transform:rotate(5deg);
+    }
+    40% {
+        transform:rotate(-5deg);
+    }
+    50% {
+        transform:rotate(5deg);
+    }
+    60% {
+        transform:rotate(-5deg);
+    }
+    70% {
+        transform:rotate(5deg);
+    }
+    80% {
+        transform:rotate(-5deg);
+    }
+    90% {
+        transform:rotate(5deg);
+    }
+    100% {
+        transform:rotate(-5deg);
+    }
+
+}
+.right{
+  width: 59%;
+}
+.rightd{
+  position: relative;
+  margin-top: -81%;
+  margin-left: 73%;
+  animation: rightd 4000ms linear infinite;
+    animation-timing-function: ease-in-out;
+      z-index: 1;
+}
+@keyframes rightd {
+    0% {
+        transform:rotate(7deg);
+    }
+    10% {
+        transform:rotate(-7deg);
+    }
+    20% {
+        transform:rotate(7deg);
+    }
+    30% {
+        transform:rotate(-7deg);
+    }
+    40% {
+        transform:rotate(7deg);
+    }
+    50% {
+        transform:rotate(-7deg);
+    }
+    60% {
+        transform:rotate(7deg);
+    }
+    70% {
+        transform:rotate(-7deg);
+    }
+    80% {
+        transform:rotate(7deg);
+    }
+    90% {
+        transform:rotate(-7deg);
+    }
+    100% {
+        transform:rotate(7deg);
+    }
+
+}
+.gt{
+width:46%;
+  animation: gtd 4000ms linear infinite;
+  position: relative;
+}
+.gtd{
+  width: 50%;
+  margin-top:-129%;
+  margin-left: 38%;
+    position: relative;
+z-index: 2;
+}
+@keyframes gtd {
+    0% {
+        transform:rotate(0deg);
+    }
+    25% {
+        transform:rotate(90deg);
+    }
+    50% {
+        transform:rotate(180deg);
+    }
+    75% {
+        transform:rotate(270deg);
+    }
+    100% {
+        transform:rotate(360deg);
+    }
+  }
+
+
+.hskel1{
+    position: absolute;
+width:40%;
+animation: hskel1 3000ms linear infinite;
+  animation-timing-function: ease-in-out;
+}
+.hskel1d{
+    position: relative;
+  margin-top:96.5%;
+overflow: hidden;
+padding-bottom: 94%;
+z-index: 2;
+}
+@keyframes hskel1 {
+  0% {left:0%;
+    top:0%;}
+  50% {left:-10%;
+    top:50%;}
+  100% {left:0%;
+     top:0%;}
+}
+.hskel2d{
+    position: relative;
+    margin-top: -50.5%;
+    margin-left: 20%;
+    padding-bottom: 50.5%;
+    overflow: hidden;
+    z-index: 2;
+}
+.hskel2 {
+  width:25%;
+  position: absolute;
+  animation: hskel2 2000ms linear infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes hskel2 {
+  0% {left:0%;
+    top:0%;}
+  50% {top:50%;}
+  100% {left:0%;
+     top:0%;}
+}
+.hskel3d{
+    position: relative;
+    margin-top: -78.5%;
+    margin-left: 40%;
+    padding-bottom: 78.5%;
+    overflow: hidden;
+    z-index: 1;
+}
+.hskel3 {
+  width:30%;
+  position: absolute;
+  animation: hskel3 2500ms linear infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes hskel3 {
+  0% {left:0%;
+    top:0%;}
+  50% {top:50%;}
+  100% {left:0%;
+     top:0%;}
+}
+.hskel4d{
+    position: relative;
+    margin-top: -85%;
+    margin-left: 57%;
+    padding-bottom: 85%;
+    overflow: hidden;
+    z-index: 2;
+}
+.hskel4 {
+  width:48%;
+  position: absolute;
+  animation: hskel4 2000ms linear infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes hskel4 {
+  0% {left:0%;
+    top:0%;}
+  50% {top:50%;}
+  100% {left:0%;
+     top:0%;}
+}
+.hskel5d{
+    position: relative;
+    margin-top: -80%;
+    margin-left: 60%;
+    padding-bottom: 80%;
+    overflow: hidden;
+    z-index: 2;
+}
+.hskel5 {
+  width:110%;
+  position: absolute;
+  animation: hskel5 2000ms linear infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes hskel5 {
+  0% {left:20%;
+    top:60%;}
+  50% {top: 0%;
+  left:-8%;}
+  100% {left:20%;
+     top:60%;}
+}
+.Vectord{
+  width: 20%;
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 10%;
+    animation: Vector 2700ms infinite;
+      animation-timing-function: cubic-bezier(.76,.4,.39,.98) ;
+}
+.flames{
+  position: relative;
+  width: 100%;
+  margin-top: -220%;
+  padding-bottom: 100%;
+
+}
+.Vector {
+width: 60%;
+  position: relative;
+}
+@keyframes Vector {
+  0% {left:0%;
+  top:0%;}
+  25% {left:70%;
+  top: 80%;}
+50%{left:10%;
+top: 110%;}
+100%{left:0%;
+  top:0%;}
+}
+.Vectord1{
+  width: 20%;
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 80%;
+    animation: Vector1 2500ms infinite;
+      animation-timing-function: cubic-bezier(.76,.4,.39,.98) ;
+        z-index: 2;
+}
+@keyframes Vector1 {
+  0% {left:0%;
+  top:0%;}
+  25% {left:0%;
+  top: 70%;}
+50%{left:-70%;
+top: 30%;}
+100%{left:0%;
+  top:0%;}
+}
+.Vectord2{
+  width: 20%;
+    position: absolute;
+    margin-top: 35%;
+    margin-left: 25%;
+    animation: Vector2 3000ms infinite;
+      animation-timing-function: cubic-bezier(.76,.4,.39,.98) ;
+      z-index: 1;
+}
+@keyframes Vector2 {
+  0% {left:0%;
+  top:0%;}
+  25% {left:50%;
+  top: 70%;}
+50%{left:-20%;
+top: 50%;}
+100%{left:0%;
+  top:0%;}
+}
+.Vectord3{
+  width: 20%;
+    position: absolute;
+    margin-top: 70%;
+    margin-left: 20%;
+    animation: Vector3 2000ms infinite;
+      animation-timing-function: cubic-bezier(.76,.4,.39,.98) ;
+        z-index: 2;
+}
+@keyframes Vector3 {
+  0% {left:0%;
+  top:0%;}
+  25% {left:60%;
+  top: 40%;}
+50%{left:-10%;
+top: 40%;}
+100%{left:0%;
+  top:0%;}
+}
+.Vectord4{
+  width: 20%;
+    position: absolute;
+    margin-top: 60%;
+    margin-left: 70%;
+    animation: Vector4 2300ms infinite;
+      animation-timing-function: cubic-bezier(.76,.4,.39,.98) ;
+        z-index: 2;
+}
+@keyframes Vector4 {
+  0% {left:0%;
+  top:0%;}
+  25% {left:0%;
+  top: 60%;}
+50%{left:-40%;
+top: 40%;}
+100%{left:0%;
+  top:0%;}
+}
+.b2{
+  position: relative;
+  background: white;
+  width: 100%;
+  height: 100%;
+  margin-top: -103%;
+  padding-top: 1%;
+  z-index: 3;
+}
+.chel{
+  width: 84%;
+  position: relative;
+}
+.cheld{
+  margin-left: 19%;
+  margin-top: 5%;
+position: relative;
+  z-index: 2;
+}
+.gt2{
+width:45%;
+  animation: gtd2 6000ms linear infinite;
+  position: relative;
+}
+.gt2d{
+  width: 50%;
+  margin-top:-213.5%;
+  margin-left: 38%;
+    position: absolute;
+      z-index: 2;
+}
+@keyframes gtd2 {
+    0% {
+        transform:rotate(0deg);
+    }
+    20% {
+        transform:rotate(72deg);
+    }
+    40% {
+        transform:rotate(144deg);
+    }
+    60% {
+        transform:rotate(216deg);
+    }
+    80% {
+        transform:rotate(288deg);
+    }
+    100% {
+        transform:rotate(360deg);
+    }
+  }
+  .grass {
+    width: 100%;
+  }
+.grassd{
+  position: relative;
+  margin-top: -31%;
+    z-index: 2;
+}
+.flower1d{
+    position: relative;
+    margin-top: -90%;
+    margin-left: -0%;
+    padding-bottom: 85%;
+    overflow: hidden;
+      z-index: 2;
+}
+.flower1 {
+  width:30%;
+  position: absolute;
+  animation: flower1 4000ms linear infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes flower1 {
+  0% {left:0%;
+    top:0%;}
+  50% {top:50%;}
+  100% {left:0%;
+     top:0%;}
+}
+.flower2d{
+    position: relative;
+    margin-top: -70%;
+    margin-left: 26%;
+    padding-bottom: 70%;
+    overflow: hidden;
+      z-index: 2;
+}
+.flower2 {
+  width:37%;
+  position: absolute;
+  animation: flower2 4000ms linear infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes flower2 {
+  0% {left:0%;
+    top:50%;}
+  50% {top:0%;}
+  100% {left:0%;
+     top:50%;}
+}
+.flower3d{
+    position: relative;
+    margin-top: -75%;
+    margin-left: 45%;
+    padding-bottom: 75%;
+    overflow: hidden;
+      z-index: 2;
+}
+.flower3 {
+  width:60%;
+  position: absolute;
+  animation: flower3 4000ms linear infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes flower3 {
+  0% {left:0%;
+    top:0%;}
+  50% {top:50%;}
+  100% {left:0%;
+     top:0%;}
+}
+.flower4d{
+    position: relative;
+    margin-top: -60%;
+    margin-left: 70%;
+    padding-bottom: 60%;
+    overflow: hidden;
+      z-index: 2;
+}
+.flower4 {
+  width:93%;
+  position: absolute;
+  animation: flower4 4000ms linear infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes flower4 {
+  0% {left:0%;
+    top:50%;}
+  50% {top:0%;}
+  100% {left:0%;
+     top:50%;}
+}
+.babochka1{
+  position: absolute;
+  width: 20%;
+  margin-top: 30%;
+  margin-left: 10%;
+  animation: babochka1 9000ms linear infinite;
+  animation-timing-function: ease-in-out;
+    z-index: 2;
+}
+@keyframes babochka1 {
+  0% {left:0%;
+  top:0%;
+transform: rotate(110deg);}
+  25% {left:50%;
+  top: 30%;
+transform: rotate(230deg);}
+50%{left:10%;
+top: 40%;
+transform: rotate(350deg);}
+100%{left:0%;
+  top:0%;
+transform: rotate(470deg);}
+}
+.kavadrat1{
+  width: 30%;
+  position: absolute;
+  margin-left: -21%;
+  animation: kvadrat1 1000ms linear infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes kvadrat1 {
+  0% {transform: rotate(15deg);}
+  50% {transform: rotate(33deg);}
+  100% {transform: rotate(15deg);}
+}
+.kavadrat2{
+    width: 30%;
+  position: absolute;
+  margin-left: -21%;
+  margin-top: 25%;
+  animation: kvadrat2 1000ms linear infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes kvadrat2 {
+  0% {transform: rotate(-15deg);}
+  50% {transform: rotate(-33deg);}
+  100% {transform: rotate(-15deg);}
+}
+.kavadrat3{
+    width: 30%;
+  position: absolute;
+  margin-left: 5%;
+  animation: kvadrat2 1000ms linear infinite;
+    animation-timing-function: ease-in-out;
+}
+.kavadrat4{
+    width: 30%;
+  position: absolute;
+    margin-left: 5%;
+      margin-top: 25%;
+      animation: kvadrat1 1000ms linear infinite;
+        animation-timing-function: ease-in-out;
+}
+.telo{
+    width: 13%;
+  position: absolute;
+}
+.babochka2{
+  position: absolute;
+  width: 20%;
+  margin-top: 30%;
+  margin-left: 80%;
+  animation: babochka2 8000ms linear infinite;
+    animation-timing-function: ease-in-out;
+      z-index: 2;
+}
+@keyframes babochka2 {
+  0% {left:0%;
+  top:0%;
+transform: rotate(0deg);}
+  25% {left:0%;
+  top: 30%;
+transform: rotate(0deg);}
+50%{left:-70%;
+top: 10%;
+transform: rotate(40deg);}
+100%{left:0%;
+  top:0%;
+transform: rotate(0deg);}
+}
+.babochka3{
+  position: absolute;
+  width: 20%;
+  margin-top: 40%;
+  margin-left: 30%;
+  animation: babochka3 10000ms linear infinite;
+    animation-timing-function: ease-in-out;
+    z-index: 0;
+}
+@keyframes babochka3 {
+  0% {left:0%;
+  top:0%;
+transform: rotate(0deg);}
+  25% {left:44%;
+  top: 30%;
+transform: rotate(-60deg);}
+50%{left:-15%;
+top: 30%;
+transform: rotate(40deg);}
+100%{left:0%;
+  top:0%;
+transform: rotate(0deg);}
+}
+.babochka4{
+  position: absolute;
+  z-index: 2;
+  width: 20%;
+  margin-top: 60%;
+  margin-left: 70%;
+  animation: babochka4 12000ms linear infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes babochka4 {
+  0% {left:0%;
+  top:0%;
+transform: rotate(0deg);}
+  25% {left:0%;
+  top: 30%;
+transform: rotate(120deg);}
+50%{left:-35%;
+top: 30%;
+transform: rotate(40deg);}
+100%{left:0%;
+  top:0%;
+transform: rotate(0deg);}
+}
+.babochka5{
+  z-index: 2;
+  position: absolute;
+  width: 20%;
+  margin-top: 85%;
+  margin-left: 20%;
+  animation: babochka5 11000ms linear infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes babochka5 {
+  0% {left:0%;
+  top:0%;
+transform: rotate(0deg);}
+  25% {left:60%;
+  top: 30%;
+transform: rotate(120deg);}
+50%{left:0%;
+top: 30%;
+transform: rotate(40deg);}
+100%{left:0%;
+  top:0%;
+transform: rotate(0deg);}
+}
+.b3{
+  position: relative;
+  background: black;
+  width: 100%;
+  height: 100%;
+  margin-top: -223%;
+  padding-top: 1%;
+  z-index: 5;
+  display: none;
+}
+.skel3{
+  width: 54%;
+  position: relative;
+}
+.skel3d{
+  margin-left: 29%;
+  margin-top: 5%;
+position: relative;
+        z-index: 7;
+}
+.gt3{
+width:46%;
+  animation: gtd3 2000ms linear infinite;
+  position: relative;
+}
+.gt3d{
+  width: 50%;
+  margin-top:-126%;
+  margin-left: 38%;
+    position: absolute;
+            z-index: 7;
+}
+@keyframes gtd3 {
+    0% {
+        transform:rotate(0deg);
+    }
+    20% {
+        transform:rotate(72deg);
+    }
+    40% {
+        transform:rotate(144deg);
+    }
+    60% {
+        transform:rotate(216deg);
+    }
+    80% {
+        transform:rotate(288deg);
+    }
+    100% {
+        transform:rotate(360deg);
+    }
+  }
+  .rightl{
+    width: 263%;
+  }
+  .rightld{
+    width: 10%;
+        z-index: 7;
+    position: relative;
+    margin-top: -13%;
+    margin-left: 55%;
+    animation: rightld 3000ms linear infinite;
+      animation-timing-function: ease-in-out;
+  }
+  @keyframes rightld {
+      0% {
+          transform:rotate(24deg);
+      }
+      10% {
+          transform:rotate(-7deg);
+      }
+      20% {
+          transform:rotate(24deg);
+      }
+      30% {
+          transform:rotate(-7deg);
+      }
+      40% {
+          transform:rotate(24deg);
+      }
+      50% {
+          transform:rotate(-7deg);
+      }
+      60% {
+          transform:rotate(24deg);
+      }
+      70% {
+          transform:rotate(-7deg);
+      }
+      80% {
+          transform:rotate(24deg);
+      }
+      90% {
+          transform:rotate(-7deg);
+      }
+      100% {
+          transform:rotate(24deg);
+      }
+
+  }
+  .leftl{
+    width: 263%;
+  }
+  .leftld{
+    width: 10%;
+    z-index: 7;
+    position: relative;
+    margin-top: -96%;
+    margin-left: 12%;
+    animation: leftld 3000ms linear infinite;
+      animation-timing-function: ease-in-out;
+  }
+  @keyframes leftld {
+      0% {
+          transform:rotate(5deg);
+      }
+      10% {
+          transform:rotate(-24deg);
+      }
+      20% {
+          transform:rotate(5deg);
+      }
+      30% {
+          transform:rotate(-24deg);
+      }
+      40% {
+          transform:rotate(5deg);
+      }
+      50% {
+          transform:rotate(-24deg);
+      }
+      60% {
+          transform:rotate(5deg);
+      }
+      70% {
+          transform:rotate(-24deg);
+      }
+      80% {
+          transform:rotate(5deg);
+      }
+      90% {
+          transform:rotate(-24deg);
+      }
+      100% {
+          transform:rotate(5deg);
+      }
+
+  }
+  .niz {
+    width: 100%;
+    position: relative;
+    animation: niz 2000ms linear infinite;
+  }
+.nizd{
+  width: 100%;
+  position: absolute;
+  margin-top: -17%;
+  overflow: hidden;
+  z-index: 7;
+}
+@keyframes niz {
+  0% {margin-left:-10%;}
+  50% {margin-left:10%;}
+  100% {margin-left:-10%;}
+}
+.niz1 {
+  width: 100%;
+  position: relative;
+  animation: niz1 2000ms linear infinite;
+}
+.niz1d{
+width: 100%;
+position: absolute;
+margin-top: -17%;
+overflow: hidden;
+z-index: 7;
+}
+@keyframes niz1 {
+0% {margin-left:10%;}
+50% {margin-left:-10%;}
+100% {margin-left:10%;}
+}
+.hand1d{
+    position: relative;
+    margin-top: -70%;
+    margin-left: -0%;
+    padding-bottom: 70%;
+    overflow: hidden;
+      z-index: 8;
+}
+.hand1 {
+  width:20%;
+  position: absolute;
+  animation: hand1 2000ms linear infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes hand1 {
+  0% {left:0%;
+    top:40%;}
+  50% {top:-0%;}
+  100% {left:0%;
+     top:40%;}
+}
+.hand2d{
+    position: relative;
+    margin-top: -70%;
+    margin-left: 15%;
+    padding-bottom: 70%;
+    overflow: hidden;
+}
+.hand2 {
+  width:20%;
+  position: absolute;
+  animation: hand2 1000ms linear infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes hand2 {
+  0% {left:0%;
+    top:0%;}
+  50% {top:50%;}
+  100% {left:0%;
+     top:0%;}
+}
+.hand3d{
+    position: relative;
+    margin-top: -70%;
+    margin-left: -10%;
+    padding-bottom: 70%;
+    overflow: hidden;
+}
+.hand3 {
+  width:15%;
+  position: absolute;
+  animation: hand3 3000ms linear infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes hand3 {
+  0% {left:0%;
+    top:0%;}
+  50% {top:50%;}
+  100% {left:0%;
+     top:0%;}
+}
+.hand4d{
+    position: relative;
+    margin-top: -70%;
+    margin-left: 28%;
+    padding-bottom: 70%;
+    overflow: hidden;
+    z-index: 8;
+}
+.hand4 {
+  width:27%;
+  position: absolute;
+  animation: hand4 1500ms linear infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes hand4 {
+  0% {left:0%;
+    top:0%;}
+  50% {top:50%;}
+  100% {left:0%;
+     top:0%;}
+}
+.hand5d{
+    position: relative;
+    margin-top: -70%;
+    margin-left: 39%;
+    padding-bottom: 70%;
+    overflow: hidden;
+}
+.hand5 {
+  width:30%;
+  position: absolute;
+  animation: hand5 1500ms linear infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes hand5 {
+  0% {left:0%;
+    top:40%;}
+  50% {top:0%;}
+  100% {left:0%;
+     top:40%;}
+}
+.hand6d{
+    position: relative;
+    margin-top: -70%;
+    margin-left: 53%;
+    padding-bottom: 70%;
+    overflow: hidden;
+    z-index: 8;
+}
+.hand6 {
+  width:40%;
+  position: absolute;
+  animation: hand6 2000ms linear infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes hand6 {
+  0% {left:0%;
+    top:0%;}
+  50% {top:50%;}
+  100% {left:0%;
+     top:0%;}
+}
+.hand7d{
+    position: relative;
+    margin-top: -70%;
+    margin-left: 70%;
+    padding-bottom: 70%;
+    overflow: hidden;
+}
+.hand7 {
+  width:60%;
+  position: absolute;
+  animation: hand7 1000ms linear infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes hand7 {
+  0% {left:0%;
+    top:40%;}
+  50% {top:0%;}
+  100% {left:0%;
+     top:40%;}
+}
+.hand8d{
+    position: relative;
+    margin-top: -70%;
+    margin-left: 85%;
+    padding-bottom: 70%;
+    overflow: hidden;
+}
+.hand8 {
+  width:120%;
+  position: absolute;
+  animation: hand8 2000ms linear infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes hand8 {
+  0% {left:0%;
+    top:40%;}
+  50% {top:0%;}
+  100% {left:0%;
+     top:40%;}
+}
+.back{
+  width: 55%;
+}
+.backd{
+  width: 10%;
+  z-index: 7;
+  position: absolute;
+  margin-top: -180%;
+  margin-left: 46%;
+  animation: backd 2000ms linear infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes backd {
+    0% {
+        transform:rotate(-5deg);
+    }
+    10% {
+        transform:rotate(0deg);
+    }
+    20% {
+        transform:rotate(-5deg);
+    }
+    30% {
+        transform:rotate(0deg);
+    }
+    40% {
+        transform:rotate(-5deg);
+    }
+    50% {
+        transform:rotate(0deg);
+    }
+    60% {
+        transform:rotate(-5deg);
+    }
+    70% {
+        transform:rotate(0deg);
+    }
+    80% {
+        transform:rotate(-5deg);
+    }
+    90% {
+        transform:rotate(0deg);
+    }
+    100% {
+        transform:rotate(-5deg);
+    }
+
+}
+.bone1{
+  width: 465%;
+  animation: bone1 1000ms linear infinite;
+    animation-timing-function: ease-in-out;
+}
+.bone1d{
+  width: 10%;
+  z-index: 7;
+  position: absolute;
+  margin-top: -165%;
+  margin-left: 25%;
+}
+@keyframes bone1 {
+    0% {
+        transform:rotate(-3deg);
+    }
+    10% {
+        transform:rotate(3deg);
+    }
+    20% {
+        transform:rotate(-3deg);
+    }
+    30% {
+        transform:rotate(3deg);
+    }
+    40% {
+        transform:rotate(-3deg);
+    }
+    50% {
+        transform:rotate(3deg);
+    }
+    60% {
+        transform:rotate(-3deg);
+    }
+    70% {
+        transform:rotate(3deg);
+    }
+    80% {
+        transform:rotate(-3deg);
+    }
+    90% {
+        transform:rotate(3deg);
+    }
+    100% {
+        transform:rotate(-3deg);
+    }
+
+}
+.bone2{
+  width: 395%;
+  animation: bone2 1000ms linear infinite;
+    animation-timing-function: ease-in-out;
+}
+.bone2d{
+  width: 10%;
+  z-index: 7;
+  position: absolute;
+  margin-top: -157%;
+  margin-left: 29%;
+}
+@keyframes bone2 {
+    0% {
+        transform:rotate(3deg);
+    }
+    10% {
+        transform:rotate(-3deg);
+    }
+    20% {
+        transform:rotate(3deg);
+    }
+    30% {
+        transform:rotate(-3deg);
+    }
+    40% {
+        transform:rotate(3deg);
+    }
+    50% {
+        transform:rotate(-3deg);
+    }
+    60% {
+        transform:rotate(3deg);
+    }
+    70% {
+        transform:rotate(-3deg);
+    }
+    80% {
+        transform:rotate(3deg);
+    }
+    90% {
+        transform:rotate(-3deg);
+    }
+    100% {
+        transform:rotate(3deg);
+    }
+
+}
+.bone3{
+  width: 335%;
+  animation: bone1 1000ms linear infinite;
+    animation-timing-function: ease-in-out;
+}
+.bone3d{
+  width: 10%;
+  z-index: 7;
+  position: absolute;
+  margin-top: -148%;
+  margin-left: 32%;
+}
+.bone4{
+  width: 395%;
+  animation: bone2 1000ms linear infinite;
+    animation-timing-function: ease-in-out;
+}
+.bone4d{
+  width: 10%;
+  z-index: 7;
+  position: absolute;
+  margin-top: -139%;
+  margin-left: 29%;
+}
+.bone5{
+  width: 465%;
+  animation: bone1 1000ms linear infinite;
+    animation-timing-function: ease-in-out;
+}
+.bone5d{
+  width: 10%;
+  z-index: 7;
+  position: absolute;
+  margin-top: -130%;
+  margin-left: 25%;
+}
+.rh3{
+  width: 205%;
+}
+.rh3d{
+  width: 10%;
+  z-index: 7;
+  position: absolute;
+  margin-top: -163%;
+  margin-left: 70%;
+  animation: rh3 3000ms linear infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes rh3 {
+    0% {
+        transform:rotate(20deg);
+    }
+    10% {
+        transform:rotate(-10deg);
+    }
+    20% {
+        transform:rotate(20deg);
+    }
+    30% {
+        transform:rotate(-10deg);
+    }
+    40% {
+        transform:rotate(20deg);
+    }
+    50% {
+        transform:rotate(-10deg);
+    }
+    60% {
+        transform:rotate(20deg);
+    }
+    70% {
+        transform:rotate(-10deg);
+    }
+    80% {
+        transform:rotate(20deg);
+    }
+    90% {
+        transform:rotate(-10deg);
+    }
+    100% {
+        transform:rotate(20deg);
+    }
+
+}
+.lh3{
+  width: 205%;
+}
+.lh3d{
+  width: 10%;
+  z-index: 7;
+  position: absolute;
+  margin-top: -165%;
+  margin-left: 5%;
+  animation: lh3 3000ms linear infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes lh3 {
+    0% {
+        transform:rotate(10deg);
+    }
+    10% {
+        transform:rotate(-20deg);
+    }
+    20% {
+        transform:rotate(10deg);
+    }
+    30% {
+        transform:rotate(-20deg);
+    }
+    40% {
+        transform:rotate(10deg);
+    }
+    50% {
+        transform:rotate(-20deg);
+    }
+    60% {
+        transform:rotate(10deg);
+    }
+    70% {
+        transform:rotate(-20deg);
+    }
+    80% {
+        transform:rotate(10deg);
+    }
+    90% {
+        transform:rotate(-20deg);
+    }
+    100% {
+        transform:rotate(10deg);
+    }
+
+}
+.ogni {
+  width: 150%;
+  position: relative;
+  animation: ogni 500ms linear infinite;
+}
+.ognid{
+width: 100%;
+position: absolute;
+margin-top: -220%;
+overflow: hidden;
+z-index: 3;
+}
+@keyframes ogni {
+0% {margin-left:-30%;}
+50% {margin-left:-20%;}
+100% {margin-left:-30%;}
+}
+.ogni1 {
+  width: 150%;
+  position: relative;
+  animation: ogni1 500ms linear infinite;
+}
+.ogni1d{
+width: 100%;
+position: absolute;
+margin-top: -220%;
+overflow: hidden;
+z-index: 3;
+}
+@keyframes ogni1 {
+0% {margin-left:-20%;}
+50% {margin-left:-30%;}
+100% {margin-left:-20%;}
+}
+.flame1d{
+    z-index: 7;
+  width: 20%;
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 10%;
+    animation: flame1 2000ms infinite;
+      animation-timing-function: cubic-bezier(.76,.4,.39,.98) ;
+}
+.flames3{
+  position: absolute;
+  width: 100%;
+  margin-top: -220%;
+  padding-bottom: 100%;
+}
+.flame1 {
+width: 60%;
+  position: relative;
+}
+@keyframes flame1 {
+  0% {left:0%;
+  top:0%;}
+  25% {left:70%;
+  top: 80%;}
+50%{left:10%;
+top: 110%;}
+100%{left:0%;
+  top:0%;}
+}
+.flame2d{
+    z-index: 7;
+  width: 20%;
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 80%;
+    animation: flame2 1700ms infinite;
+      animation-timing-function: cubic-bezier(.76,.4,.39,.98) ;
+}
+@keyframes flame2 {
+  0% {left:0%;
+  top:0%;}
+  25% {left:0%;
+  top: 70%;}
+50%{left:-70%;
+top: 30%;}
+100%{left:0%;
+  top:0%;}
+}
+.flame3d{
+  width: 20%;
+    position: absolute;
+    margin-top: 35%;
+    margin-left: 25%;
+    animation: flame3 1500ms infinite;
+      animation-timing-function: cubic-bezier(.76,.4,.39,.98) ;
+      z-index: 6;
+}
+@keyframes flame3 {
+  0% {left:0%;
+  top:0%;}
+  25% {left:50%;
+  top: 70%;}
+50%{left:-20%;
+top: 50%;}
+100%{left:0%;
+  top:0%;}
+}
+.flame4d{
+    z-index: 7;
+  width: 20%;
+    position: absolute;
+    margin-top: 70%;
+    margin-left: 20%;
+    animation: flame4 1100ms infinite;
+      animation-timing-function: cubic-bezier(.76,.4,.39,.98) ;
+}
+@keyframes flame4 {
+  0% {left:0%;
+  top:0%;}
+  25% {left:60%;
+  top: 40%;}
+50%{left:-10%;
+top: 40%;}
+100%{left:0%;
+  top:0%;}
+}
+.flame5d{
+    z-index: 7;
+  width: 20%;
+    position: absolute;
+    margin-top: 60%;
+    margin-left: 70%;
+    animation: flame5 1000ms infinite;
+      animation-timing-function: cubic-bezier(.76,.4,.39,.98) ;
+}
+@keyframes flame5 {
+  0% {left:0%;
+  top:0%;}
+  25% {left:0%;
+  top: 60%;}
+50%{left:-40%;
+top: 40%;}
+100%{left:0%;
+  top:0%;}
+}
+.knopka{
+  position: absolute;
+  z-index: 8;
+    width: 10%;
+    margin-left:10%;
+    margin-top: 15%;
+}
+#isexpanded{
+opacity: 0;
+position: absolute;
+}
+#isexpanded, .b2 {
+    display: block;
+}
+
+
+#isexpanded:checked ~ .b2, #isexpanded:checked ~ *.b2{
+    display: none;
+ }
+
+#isexpanded:checked ~ #k3, #isexpanded:checked ~ * #k3{
+display: none;
+}
+.knopka2{
+  position: absolute;
+  z-index: 8;
+  margin-left: 15%;
+    width: 10%;
+    margin-top: 15%;
+}
+#isexpanded2{
+opacity: 0;
+position: absolute;
+}
+#isexpanded2, .b3 {
+    display: none;
+}
+
+
+#isexpanded2:checked ~ .b3, #isexpanded2:checked ~ *.b3{
+    display: block;
+ }
+
+#isexpanded2:checked ~ #k2, #isexpanded2:checked ~ * #k2{
+display: none;
+}
+.knopka3{
+  position: absolute;
+  z-index: 8;
+  width: 10%;
+  margin-left: 5%;
+    margin-top: 15%;
+}
+#isexpanded3{
+opacity: 0;
+position: absolute;
+}
+#isexpanded3, .b3 {
+    display: none;
+}
+#isexpanded3:checked ~ #k1, #isexpanded3:checked ~ * #k1{
+display: none;
+}
+#k1{
+  position: absolute;
+  width: 50%;
+  margin-left:
+}
+#k11{
+  position: absolute;
+  width: 50%;
+}
+#k2{
+  position: absolute;
+  width: 50%;
+  margin-left:
+}
+#k22{
+  position: absolute;
+  width: 50%;
+}
+#k3{
+  position: absolute;
+  width: 50%;
+  margin-left:
+}
+#k33{
+  position: absolute;
+  width: 50%;
+}
