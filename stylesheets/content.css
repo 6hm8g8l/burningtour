@@ -25,15 +25,16 @@ body{
   z-index: 2;
 }
 .left{
-  width: 12%;
+  width: 100%;
 }
 .leftd{
+  width: 10%;
   position: relative;
   margin-top: -161%;
   margin-left: 15%;
   animation: leftd 4000ms linear infinite;
     animation-timing-function: ease-in-out;
-      z-index: 1;
+      z-index: 2;
 }
 @keyframes leftd {
     0% {
@@ -72,15 +73,16 @@ body{
 
 }
 .right{
-  width: 59%;
+  width: 160%;
 }
 .rightd{
+  width: 10%;
   position: relative;
-  margin-top: -81%;
+  margin-top: -80%;
   margin-left: 73%;
   animation: rightd 4000ms linear infinite;
     animation-timing-function: ease-in-out;
-      z-index: 1;
+      z-index: 2;
 }
 @keyframes rightd {
     0% {
